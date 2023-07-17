@@ -11,8 +11,8 @@ import openai
 
 #define la llave de la api como variable de entorno
 
-os.environ["OPENAI_API_KEY"] = "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"
-openai.api_key = "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"
+os.environ["OPENAI_API_KEY"] = ""
+openai.api_key = ""
 
 #lee la carpeta datos
 docs = SimpleDirectoryReader("datos").load_data()
